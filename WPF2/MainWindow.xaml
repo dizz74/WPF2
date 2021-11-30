@@ -12,7 +12,7 @@
             <RowDefinition />
         </Grid.RowDefinitions>
         <TextBlock Text="1 2345,4" Background="LightBlue" FontSize="38" TextAlignment="Right" Padding="20 50 10 0"/>
-        <UniformGrid Grid.Row="1" Rows="6" Columns="4" Grid.ColumnSpan="2" Margin="0,0.2,-0.4,0">
+        <UniformGrid Grid.Row="1" Rows="6" Columns="4" Grid.ColumnSpan="2">
             <Button Content="%"/>
             <Button Content="CE"/>
             <Button Content="C"/>
