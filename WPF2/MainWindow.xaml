@@ -7,15 +7,11 @@
         mc:Ignorable="d"
         Title="Calc" Height="450" Width="400" FontSize="18">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="83*"/>
-            <ColumnDefinition Width="114*"/>
-        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition />
         </Grid.RowDefinitions>
-        <TextBlock Text="1 2345,4" Background="LightBlue" FontSize="38" TextAlignment="Right" Padding="20 50 10 0" Grid.ColumnSpan="2" Margin="0,0,-0.4,319" Grid.RowSpan="2"/>
+        <TextBlock Text="1 2345,4" Background="LightBlue" FontSize="38" TextAlignment="Right" Padding="20 50 10 0"/>
         <UniformGrid Grid.Row="1" Rows="6" Columns="4" Grid.ColumnSpan="2" Margin="0,0.2,-0.4,0">
             <Button Content="%"/>
             <Button Content="CE"/>
